@@ -1,12 +1,11 @@
 extends ../layout.jade
+
 block content
-    form(action="cadastro", method="POST")
+    form(action="login", method="POST")
         label Usuário:
-        input(type="text", id="username",name="username")
+        input(type="text", id="userName",name="userName")
         br
         label Senha:
         input(type="password", id="senha", name="senha")
         br
-        label Confirmar senha:
-        input#confirmarSenha(type="password",name="confirmarsenha")
         input(type="submit", value="Enviar")

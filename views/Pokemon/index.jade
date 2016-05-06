@@ -1,0 +1,20 @@
+extends ../layout.jade
+block content
+ table
+  tr
+   td
+   td
+    span nome
+   td
+    span descricao
+   td
+    span tipo
+ each x in data 
+  tr
+   td
+    x.imagem
+   td
+    x.nome
+   td
+    x.tipo
+

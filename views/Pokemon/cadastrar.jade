@@ -1,0 +1,11 @@
+extends ../layout.jade
+block content
+    form(action="./cadastrar", method="POST")
+        input(type="text", name="nome", id="nome")
+        br
+        input(type="text", name="descricao", id="descricao")
+        br
+        input(type="text", name="imagem", id="imagem")
+        br
+        input(type="submit", value="Cadastrar")
+       
